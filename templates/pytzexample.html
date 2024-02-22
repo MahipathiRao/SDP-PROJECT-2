@@ -1,0 +1,36 @@
+{% extends 'Navbar.html' %}
+{% load static %}
+<html lang="en">
+{% block body %}
+<div class="container">
+  <div class="row">
+    <div  align="center" class="col">
+        <br>
+        <br>
+        <br><br>
+        <br>         <br><br><br>
+        <img src = "{% static 'images/klu.png' %}" alt="My image" width="290" height="200"/>
+        <br> <br>
+      <h1>Welcome to Mahi's Travel Tourism and Management</h1>
+
+<br><br><br>
+<center>
+    <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    COUNTRY'S CURRENT TIME
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+    </center>
+<br><br><br><br><br><br>
+{% endblock %}
+</html>
